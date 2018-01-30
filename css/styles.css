@@ -1,6 +1,6 @@
 
-body{
-    font-family:'Inconsolata', monospace;
+body {
+    font-family: 'Inconsolata', monospace;
     margin: 16px;
 }
 
@@ -14,10 +14,11 @@ hr {
 }
 
 /* Header */
-.header{
+.header {
     display: flex;
     justify-content: space-between;
 }
+
 .header_logo {
     width: 40%;
 }
@@ -60,7 +61,7 @@ hr {
     color: #2d3c49;
     margin-top: 8px;
     margin-bottom: 8px;
-    overflow: wrap;
+    overflow-wrap: break-word;
 }
 
 .project_name > p {
@@ -84,7 +85,7 @@ hr {
         justify-content: space-between;
     }
     .project {
-        width: 45%; order 1;
+        width: 45%;
         margin-left: 16px;
     }
 
@@ -97,11 +98,10 @@ hr {
 @media screen and (min-width: 841px){
     .portfolio {
         display: flex;
-        /* flex-wrap: wrap; */
         justify-content: space-between;
     }
     .project {
-        width: 33%; order 1;
+        width: 33%;
         padding-right: 10px;
     }
 
