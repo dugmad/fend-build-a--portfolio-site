@@ -68,7 +68,7 @@ hr {
     font-size: 0.75em;
     color: #2d3c49;
     margin-top: 0;
-    overflow: wrap;
+    overflow-wrap: break-word;
 }
 
 .project_image > img {
